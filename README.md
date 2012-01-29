@@ -1,20 +1,15 @@
-# Monocle
-
 A silky, tactile browser-based ebook reader.
+
+Derived from Monocle
 
 Invented by [Inventive Labs](http://inventivelabs.com.au). Released under the
 MIT license.
 
 More information (including demos): http://monocle.inventivelabs.com.au
 
-Contributions welcome - fork the repository on
-[GitHub](http://github.com/joseph/monocle).
-
-
 ## Getting Monocle
 
-You can download a unified, redistributable version of Monocle 
-[from Github](https://github.com/joseph/Monocle/downloads).
+Get the original from https://github.com/joseph/Monocle/downloads
 
 The scripts and stylesheets are separated into:
 
@@ -98,26 +93,7 @@ is trying to support:
 * Kindle 3
 
 All these mobile platforms implement columned iframes differently, so support
-may be patchy in places, but we're working on it. Patches that improve or
-broaden Monocle's browser support are very welcome (but please provide tests).
-
-Inventive Labs would like to thank Ebooq for providing a device to assist with
-Android testing.
-
-
-## Future directions
-
-Monocle has a small set of big goals:
-
-* Faster, more responsive page flipping
-* Wider browser support (and better tests, automated as far as possible)
-* Tracking spec developments in EPUB and Zhook, supporting where appropriate
-
-We'd also like to provide more implementation showcases in the tests, and
-offer more developer documentation in the wiki. 
-
-If you can help out with any of these things, fork away (or contact 'joseph'
-on GitHub).
+may be patchy in places, but we're working on it. 
 
 
 ## History

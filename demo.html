@@ -41,8 +41,11 @@
 			return [
 				'epub/first_epub/cover.html',
 				//'first_epub/text/part1.xhtml',
+				'content1_short.html',
 				'epub/ads/ad1.html',
-				'content1.html',
+				'epub/ads/part1_middle_ad.html',
+				'epub/ads/video_ad.html',
+				'epub/ads/part1.html',
 				'content2.html'
 				];
 		},
@@ -92,6 +95,12 @@
 
 </head>
 <body>
-	<div id="reader" style="width:400px; height:600px;">Your Reader</div>
+	<div id="reader" style="width:400px; height:550px;">Your Reader</div>
+	<video>
+  
+  <source src="epub/ads/nook.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+
+  Video tag not supported. Download the video <a href="movie.webm">here</a>.
+<video>
 </body>
 </html>
